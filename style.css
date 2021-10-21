@@ -1,0 +1,395 @@
+body{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.menu{
+    
+    position: absolute !important;
+
+    width: 100%;
+    padding: 20px 0px !important;
+}
+.navbar-brand{
+    color: #eee !important;
+    font-family: 'Courgette', cursive;
+
+}
+.nav-link{
+    color: #eee !important;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.nav-link:hover {
+    color: #d15454  !important;
+}
+
+
+
+.navbar-nav{
+    margin-left: auto;
+}
+.banner-bg{
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.bg-layer{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+.banner-content{
+    padding-top: 181px;
+}
+.banner-content h1{
+    color: white;
+    font-size: 75px;
+    font-weight: 100;
+}
+.banner-content h1 span{
+    font-weight: 400;
+}
+.banner-content p{
+    color: #666;
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.banner-content a{
+    color: white;
+    border: 1px solid #d15454;
+    padding: 16px 15px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all .5s;
+
+}
+.banner-content a:hover{
+ background-color: #d15454 ; 
+ color: white;
+
+}
+.sec-1img img{
+    width: 100%;
+}
+
+    
+.sec-1content h2{
+    font-size: 75px;
+    font-weight: 100;
+    padding-bottom: 25px;
+    
+}
+.sec-1content p{
+    color: #aaa;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+.sec-1content span{
+    font-weight: 400;
+}
+.sec-1padding{
+    padding: 100px 150px !important;
+}
+.sec-1box{
+    display: inline-flex;
+    padding-bottom: 15px;
+}
+
+.sec-1icon{
+
+}
+.sec-1icon i{
+    color: #d15454;
+    font-size: 40px;
+    padding-right: 20px;
+}
+.sec-1data{
+    color: #333;
+    font-weight: 400;
+}
+.sec-1data h4{
+
+}
+.sec-1data p{
+ color:#999;
+}
+.star {
+    margin-bottom: 40px;
+}
+.star i{
+    color: orange;
+}
+
+
+
+
+.swiper {
+    width: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-wrapper {
+      height: unset !important;
+  }
+  .swiper-box{
+      position: relative;
+  }
+  .swiper-text {
+    position: absolute;
+    
+    bottom: 35px; 
+    right: 60px;
+
+  }
+  .swiper-text p {
+    color:#eee;
+    font-size: 70px;
+    font-weight: 100;
+}
+.box-our{
+    padding-bottom: 30px;
+}
+.box-our h2{
+    color:black;
+    font-size: 75px;
+    font-weight: 100;
+    text-align: center;
+
+}
+.box-our span{
+    font-weight: 400;
+}
+.bg-burger{
+   
+    background-image: url(./img/menu-title-burgers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.bg-burger h3{
+    color:white;
+    font-size: 65px;
+    font-weight: 180;
+    padding: 35px 140px;
+
+
+}
+.layer-dark{
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 79px 20px;
+}
+.order{
+    padding: 15px 5px;
+    border-bottom: 1px solid #aaa ;
+    background-color: white;
+}
+.cart{
+     float: right;
+    padding-top: 10px;
+     text-align: right;
+     
+}
+.cart a{
+    text-align: right !important;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 8px 10px;
+    font-weight: 600;
+    
+}
+.menu-detail p span{
+    font-size: 16px;
+    color:#333;
+    font-weight: 500;
+    
+}
+
+.menu-detail p{
+    font-size: 14px;
+    color:#555;
+    margin-bottom: 0px;
+    
+    
+}
+.bg-color{
+    background-color: #f3f4f4;
+}
+
+.bg-darkest{
+    background-color: #282b2e;
+}
+
+.sec-2box{
+    display: inline-flex;
+    padding: 90px 20px;
+}
+
+.sec-2icon{
+
+}
+.sec-2icon i{
+    color: #d15454;
+    font-size: 40px;
+    padding-right: 20px;
+}
+.sec-2data{
+    color: #333;
+    font-weight: 400;
+}
+.sec-2data h4{
+    color:#eee;
+    padding-bottom: 5px;
+    font-weight: 200;
+}
+.sec-2data p{
+ color:#999;
+ font-weight: 300;
+}
+
+.bg-video{
+    background-image: url(./img/bg-burger2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+
+}
+
+.fix-content a{
+    color: white;
+    border: 1px solid #d15454;
+    padding: 16px 15px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all .5s;
+}
+
+.fix-content h2{
+    color:#eee;
+    padding-bottom: 10px;
+    font-weight: 150;
+    font-size: 80px;
+}
+.fix-content h2 span{
+    font-weight: 400;
+}
+
+.fix-content p{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.fix-content i{
+    
+    color: #eee;
+    padding: 15px 17px;
+    font-size: 20px;
+  border: 1px solid #eee;
+    padding: 40px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: all .8s;
+}
+.fix-content i:hover{
+    background-color: #eee;
+    color: #333;
+    
+
+}
+.end p{
+    color: #eee;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 0%;
+}
+@media only screen and (max-width:600px){
+
+    .banner-content h1{
+       font-size: 39px; 
+    }
+    .banner-content p{
+        font-size: 15px;
+    }
+    .banner-content a{
+        padding: 8px;
+        font-size: 15px;
+    }
+    .sec-1content h2{
+        font-size: 30px;
+    }
+    .star{
+        display: inline-flex;
+    }
+
+    .sec-1padding {
+        padding: 20px 18px !important;
+    }
+    .sec-2box{
+        padding: 25px 20px;
+    }
+    .bg-video{
+        padding: 17PX;
+    }
+    .fix-content i{
+        font-size: 5px;
+        padding: 15px;
+    }
+    .fix-content h2{
+        font-size: 35px;
+    }
+    .fix-content p{
+        font-size: 15px;
+    }
+    .fix-content a{
+        padding: 10px;
+        font-size: 10px;
+    }
+    .swiper-text p{
+        font-size: 20px;
+    }
+    .box-our h2{
+        font-size: 39px;
+    }
+    .bg-burger h3 {
+        color: white;
+        font-size: 46px;
+        font-weight: 180;
+        padding: 32px 84px;
+    }
+    .swiper-text{
+        bottom: 30px;
+        right: 45px;
+    }
+    }
+}
+
